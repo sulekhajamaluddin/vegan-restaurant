@@ -1,0 +1,13 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
