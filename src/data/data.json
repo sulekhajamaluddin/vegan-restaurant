@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Main Dishes",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "categoryName": "Desserts",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "categoryName": "Drinks",
+      "thumbNailURL": "",
+      "description": ""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Main Dish",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "category": "Main Dish",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "category": "Main Dish",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "category": "Main Dish",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "category": "Main Dish",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "category": "Dessert",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "category": "Dessert",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "category": "Dessert",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "category": "Dessert",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "category": "Dessert",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 11,
+      "category": "Drink",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 12,
+      "category": "Drink",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 13,
+      "category": "Drink",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 14,
+      "category": "Drink",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    },
+    {
+      "id": 15,
+      "category": "Drink",
+      "productName": "",
+      "thumbNailURL": "",
+      "description": ""
+    }
+  ]
+}
