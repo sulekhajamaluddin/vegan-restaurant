@@ -1,0 +1,42 @@
+.product-ingredients {
+  width: 100%;
+  height: 250px;
+  padding: var(--space-medium) var(--space-medium);
+  background: #f2cedd;
+}
+
+.product-ingredients li {
+  list-style: none;
+  line-height: 200%;
+  text-align: center;
+  font-size: var(--text-paragraph-mobile);
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 750px) {
+  .product-ingredients {
+    height: auto;
+  }
+
+  .product-ingredients li {
+    font-size: var(--text-paragraph-tablet);
+  }
+}
+
+/*Laptops*/
+
+@media screen and (min-width: 1000px) {
+  .product-ingredients {
+    width: 50%;
+  }
+
+  .product-ingredients h3,
+  .product-ingredients li {
+    text-align: left;
+  }
+
+  .product-ingredients li {
+    font-size: var(--text-paragraph);
+  }
+}

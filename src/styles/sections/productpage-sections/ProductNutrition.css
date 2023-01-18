@@ -1,0 +1,60 @@
+.product-nutrition {
+  width: 350px;
+  background-color: rgb(246, 243, 243);
+  margin: var(--space-big) 0;
+  padding: var(--space-medium) var(--space-medium);
+}
+
+.product-nutrition header {
+  border-top: 5px solid var(--color-blue);
+  border-bottom: 10px solid var(--color-blue);
+  padding: var(--space-medium 0);
+}
+
+.product-nutrition header h3 {
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table .wide {
+  width: 75%;
+}
+
+.table .right {
+  text-align: right;
+}
+
+.table tr {
+  border-bottom: 2px solid var(--color-pale-beet);
+}
+
+.table tr:last-child {
+  border-top: 5px solid var(--color-blue);
+  border-bottom: 10px solid var(--color-blue);
+}
+
+.table td {
+  padding: 4px 0;
+}
+
+/*Laptops*/
+
+@media screen and (min-width: 1000px) {
+  .product-nutrition {
+    width: 50%;
+  }
+
+  .product-nutrition header {
+    width: 80%;
+    margin: auto;
+  }
+
+  .table {
+    width: 80%;
+    margin: auto;
+  }
+}

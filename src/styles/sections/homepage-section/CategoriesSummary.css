@@ -1,0 +1,13 @@
+.categories-summary {
+  height: auto;
+  overflow: auto;
+  padding: 0 var(--space-medium);
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 750px) {
+  .categories-summary {
+    padding: 0 var(--space-big);
+  }
+}

@@ -1,0 +1,903 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "dishes",
+      "thumbNailURL": "main-dishes-thumb.jpg",
+      "thumbDescription": "A bowl of vegetables",
+      "description": "Our dishes are a unique blend of cuisines from different parts of the world blended together to satisfy the Vegan taste buds. We can promise that all the dishes are made and served following the Vegan principles of peace."
+    },
+    {
+      "id": 2,
+      "categoryName": "desserts",
+      "thumbNailURL": "desserts-thumb.jpg",
+      "thumbDescription": "A few pieces of strawberry cakes",
+      "description": "Our dishes are a unique blend of cuisines from different parts of the world blended together to satisfy the Vegan taste buds. We can promise that all the dishes are made and served following the Vegan principles of peace."
+    },
+    {
+      "id": 3,
+      "categoryName": "drinks",
+      "thumbNailURL": "drinks-thumb.jpg",
+      "thumbDescription": "Two glasses of pink colored smoothie",
+      "description": "Our dishes are a unique blend of cuisines from different parts of the world blended together to satisfy the Vegan taste buds. We can promise that all the dishes are made and served following the Vegan principles of peace."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "dishes",
+      "productName": "Vegan Plant Balls",
+      "thumbNailURL": "plant-balls.jpg",
+      "thumbDescription": "A bowl with vegan plant balls",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": ["Quinoa", "Black Beans", "Garlic", "Oregano", "Parsley"],
+      "servingSize": "100g",
+      "calories": "180kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "9g",
+          "dailyValue": "14%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "1g",
+          "dailyValue": "5%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "630mg",
+          "dailyValue": "26%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "16g",
+          "dailyValue": "5%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "5g",
+          "dailyValue": "20%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "3g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "8g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "dishes",
+      "productName": "Vegan Tofu Spinach Biryani",
+      "thumbNailURL": "tofu-spinach-biryani.jpg",
+      "thumbDescription": "A bowl with tofu and spinach biryani",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Tofu",
+        "Spinach",
+        "Onion",
+        "Garlic",
+        "Aromatic Basmati Rice"
+      ],
+      "servingSize": "689g",
+      "calories": "580kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "17g",
+          "dailyValue": "22%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "2g",
+          "dailyValue": "10%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "670mg",
+          "dailyValue": "29%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "82g",
+          "dailyValue": "30%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "16g",
+          "dailyValue": "57%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "25g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "29g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "dishes",
+      "productName": "Vegan Mushroom Stroganoff",
+      "thumbNailURL": "mushroom-pasta.jpg",
+      "thumbDescription": "A bowl with mushroom pasta",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Mushroom",
+        "Vegetable Broth",
+        "Garlic",
+        "Thyme",
+        "Coconut Milk"
+      ],
+      "servingSize": "100g",
+      "calories": "90kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "8g",
+          "dailyValue": "10%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "1g",
+          "dailyValue": "5%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "230mg",
+          "dailyValue": "10%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "54g",
+          "dailyValue": "15%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "2g",
+          "dailyValue": "7%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "6g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "5g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "dishes",
+      "productName": "Vegan Falafel Bowl",
+      "thumbNailURL": "falafel-bowl.jpeg",
+      "thumbDescription": "A bowl with falafel and vegetables",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Garbanzo Beans",
+        "Cilantro",
+        "Garlic",
+        "Quinoa",
+        "Coconut Yoghurt"
+      ],
+      "servingSize": "100g",
+      "calories": "210kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "6g",
+          "dailyValue": "8%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0.5g",
+          "dailyValue": "3%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "500mg",
+          "dailyValue": "22%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "65g",
+          "dailyValue": "25%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "7g",
+          "dailyValue": "25%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "10g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "8g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "desserts",
+      "productName": "Crispy Apple",
+      "thumbNailURL": "apple-crunch.jpg",
+      "thumbDescription": "Crispy apple on a plate",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Apples",
+        "Cinnamon",
+        "Lemon Juice",
+        "Oats",
+        "Brown Sugar"
+      ],
+      "servingSize": "140g",
+      "calories": "100kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "0.5g",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "24g",
+          "dailyValue": "9%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "6g",
+          "dailyValue": "22%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "10g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "0.5g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "desserts",
+      "productName": "Tiramisu",
+      "thumbNailURL": "tiramisu.jpg",
+      "thumbDescription": "Tiramisu in a bowl",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Plain Flour",
+        "Almond Milk",
+        "Vanilla Extract",
+        "Vegan Cream Cheese",
+        "Apple Sauce"
+      ],
+      "servingSize": "135g",
+      "calories": "510kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "37g",
+          "dailyValue": "47%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "21g",
+          "dailyValue": "105%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "135mg",
+          "dailyValue": "45%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "210mg",
+          "dailyValue": "9%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "35g",
+          "dailyValue": "13%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "0g",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "22g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "3g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "desserts",
+      "productName": "Avocado Strawberry",
+      "thumbNailURL": "avocado-strawberry.jpg",
+      "thumbDescription": "A glass with avocado and strawberry pudding",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Avocado",
+        "Strawberry",
+        "Vinegar",
+        "Vanilla Extract",
+        "Maple Syrup"
+      ],
+      "servingSize": "150g",
+      "calories": "71kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "6.3g",
+          "dailyValue": "10%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0.6g",
+          "dailyValue": "3%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "263mg",
+          "dailyValue": "11%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "3.3g",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "2.8g",
+          "dailyValue": "11%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "2g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "1.4g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "desserts",
+      "productName": "Cherry & almond brownies",
+      "thumbNailURL": "brownie.jpg",
+      "thumbDescription": "A plate with cherry and almond brownies",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Red Cherries",
+        "Almond",
+        "Flax Seeds",
+        "Cocoa Powder",
+        "Coffee Granules"
+      ],
+      "servingSize": "44g",
+      "calories": "122kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "8.5g",
+          "dailyValue": "13%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "1.4g",
+          "dailyValue": "7%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "65mg",
+          "dailyValue": "3%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "11.9g",
+          "dailyValue": "4%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "2.3g",
+          "dailyValue": "9%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "2.5g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "2g",
+          "dailyValue": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "drinks",
+      "productName": "Blueberry Banana Smoothie",
+      "thumbNailURL": "blueberry-banana-smoothie.jpg",
+      "thumbDescription": "Glass with blueberry and banana smoothie",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Blue Berries",
+        "Banana",
+        "Almond Butter",
+        "Cinnamon",
+        "Almond Milk"
+      ],
+      "servingSize": "200g",
+      "calories": "244kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "3.8g",
+          "dailyValue": "5%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0.2g",
+          "dailyValue": "3%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "189mg",
+          "dailyValue": "8%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "51.9g",
+          "dailyValue": "19%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "7.3g",
+          "dailyValue": "26%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "29.7g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "4g",
+          "dailyValue": "8%"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "drinks",
+      "productName": "Matcha Milkshake",
+      "thumbNailURL": "matcha-milkshake.jpg",
+      "thumbDescription": "Glass with Matcha Milkshake",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Toasted Coconut",
+        "Frozen Banana",
+        "Matcha",
+        "Dark Chocolate Flakes",
+        "Cashew Milk"
+      ],
+      "servingSize": "200g",
+      "calories": "165kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "3.3g",
+          "dailyValue": "4%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0.2g",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "189mg",
+          "dailyValue": "8%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "33.4g",
+          "dailyValue": "12%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "3.7g",
+          "dailyValue": "13%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "16.7g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "3.3g",
+          "dailyValue": "7"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "drinks",
+      "productName": "Mexican Hot Chocolate",
+      "thumbNailURL": "mexican-hot-chocolate.jpg",
+      "thumbDescription": "Glass with Mexican Hot Chocolate",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": [
+        "Almond Milk",
+        "Dark Vegan Chocolate",
+        "Maple Syrup",
+        "Nutmeg",
+        "Vegan Marshmallows"
+      ],
+      "servingSize": "200g",
+      "calories": "254kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "13.9g",
+          "dailyValue": "18%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "6.3g",
+          "dailyValue": "20%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "1.7mg",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "191.2mg",
+          "dailyValue": "8%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "29.1g",
+          "dailyValue": "11%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "2.9g",
+          "dailyValue": "10%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "21.1g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "3.4g",
+          "dailyValue": "7"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "drinks",
+      "productName": "Lemon Ginger Tea",
+      "thumbNailURL": "lemon-ginger-tea.jpg",
+      "thumbDescription": "A cup of lemon ginger tea",
+      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "ingredients": ["Lemon", "Ginger", "Turmeric", "Cayenne", "Maple Syrup"],
+      "servingSize": "75g",
+      "calories": "12kcal",
+      "nutrition": [
+        {
+          "id": 1,
+          "name": "Total Fat",
+          "value": "0.3g",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 2,
+          "name": "Saturated Fat",
+          "value": "0.1g",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 3,
+          "name": "Trans Fat",
+          "value": "0g",
+          "dailyValue": ""
+        },
+        {
+          "id": 4,
+          "name": "Cholesterol",
+          "value": "0mg",
+          "dailyValue": "0%"
+        },
+        {
+          "id": 5,
+          "name": "Sodium",
+          "value": "17.5mg",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 6,
+          "name": "Total Carbohydrates",
+          "value": "2.8g",
+          "dailyValue": "1%"
+        },
+        {
+          "id": 7,
+          "name": "Dietary Fibre",
+          "value": "0.6g",
+          "dailyValue": "2%"
+        },
+        {
+          "id": 8,
+          "name": "Sugars",
+          "value": "1.4g",
+          "dailyValue": ""
+        },
+        {
+          "id": 9,
+          "name": "Protien",
+          "value": "0.3g",
+          "dailyValue": "1%"
+        }
+      ]
+    }
+  ]
+}

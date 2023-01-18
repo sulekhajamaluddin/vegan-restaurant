@@ -1,0 +1,77 @@
+/*Common CSS for Dishes, Desserts and Drinks Page*/
+.category {
+  width: 100vw;
+  height: auto;
+  overflow: auto;
+}
+
+.category .thumbnail {
+  width: 100%;
+  height: 500px;
+  margin-bottom: var(--space-big);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category .dishes {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../../public/assets/main-dishes-thumb.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.category .desserts {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../../public/assets/desserts-thumb.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.category .drinks {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../../../public/assets/drinks-thumb.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.category .description {
+  padding: 0 var(--space-medium);
+  text-align: justify;
+}
+
+.category .product-list {
+  padding: 0 var(--space-medium);
+  margin-bottom: var(--space-big);
+}
+
+/*Tablets*/
+
+@media screen and (min-width: 750px) {
+  .category .description {
+    padding: 0 var(--space-big);
+  }
+
+  .category .product-list {
+    padding: 0 var(--space-big);
+  }
+}
+
+/*Laptops*/
+
+@media screen and (min-width: 1000px) {
+  .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category .description {
+    width: 70%;
+  }
+
+  .category .product-list {
+    width: 70%;
+  }
+}

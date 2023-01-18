@@ -1,0 +1,28 @@
+.footer {
+  height: 150px;
+}
+
+.footer .details {
+  height: 80%;
+  background-color: var(--color-beet);
+  color: white;
+  padding: var(--space-medium) var(--space-medium);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .details p {
+  max-width: 45%;
+  font-size: var(--text-paragraph-small);
+}
+
+.footer .copyright {
+  height: 20%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-paragraph-extrasmall);
+}

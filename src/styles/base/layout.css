@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Roboto Slab", serif;
+  color: var(--color-grey);
+  background-color: var(--color-white-pale);
+  scroll-behavior: smooth;
+}

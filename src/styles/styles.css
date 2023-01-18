@@ -2,3 +2,22 @@
 @import "./base/variables.css";
 @import "./base/layout.css";
 @import "./base/typography.css";
+
+/*Pages*/
+@import "./pages/HomePage.css";
+@import "./pages/Category.css";
+@import "./pages/Product.css";
+@import "./pages/Contact.css";
+
+/*Sections*/
+@import "./sections/homepage-section/Hero.css";
+@import "./sections/homepage-section/CategoriesSummary.css";
+@import "./sections/productpage-sections/ProductIngredients.css";
+@import "./sections/productpage-sections/ProductNutrition.css";
+@import "./sections/contactpage-sections/ContactForm.css";
+
+/*Components*/
+@import "./components/Navbar.css";
+@import "./components/CategoryCard.css";
+@import "./components/ProductListItem.css";
+@import "./components/Footer.css";

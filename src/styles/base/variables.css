@@ -1,0 +1,26 @@
+/*Colors*/
+
+:root {
+  --color-beet: #f963a2;
+  --color-yellow: #f8f0ac;
+  --color-blue: #0b3868;
+  --color-grey: #453c3c;
+  --color-pale-beet: #faccdf;
+  --color-white-pale: #faf9f6;
+}
+
+/*Space*/
+
+:root {
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 32px;
+}
+
+:root {
+  --text-paragraph-extrasmall: 12px;
+  --text-paragraph-small: 14px;
+  --text-paragraph-mobile: 16px;
+  --text-paragraph-tablet: 18px;
+  --text-paragraph: 20px;
+}
