@@ -3,30 +3,54 @@ import { useState } from "react";
 
 //Project Files
 import { useFormData } from "../../state/FormContext";
-import { DatePicker } from "../../sections";
+import { DatePicker, TextInput } from "../../sections";
+import { changeHandler, dateChangeHandler } from "../../scripts/utils";
+
+const intialState = {
+  id: 0,
+  name: "",
+  email: "",
+  date: "",
+  time: "",
+};
 
 const ContactForm = () => {
   //Global State
   const { allBookingInfo, setAllBookingInfo } = useFormData();
 
+  console.log(allBookingInfo);
   //Local State
+  const [newBookingInfo, setNewBookingInfo] = useState(intialState);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setAllBookingInfo([...allBookingInfo, newBookingInfo]);
+    setNewBookingInfo(intialState);
+  };
 
   return (
-    <div className="form">
-      <label htmlFor="name">First Name & Last Name:</label>
-      <input type="text" id="name" name="name" required />
-      <br />
-      <label htmlFor="email">Email Address:</label>
-      <input type="text" id="email" name="email" required />
-      <br />
-      {/* <label htmlFor="date">Please Select A Date:</label>
-      <input type="date" id="date" name="date" required /> */}
-      <DatePicker />
-      <br />
+    <form className="form" onSubmit={handleSubmit}>
+      <TextInput
+        changeHandler={changeHandler}
+        newBookingInfo={newBookingInfo}
+        allBookingInfo={allBookingInfo}
+        setNewBookingInfo={setNewBookingInfo}
+      />
+      <label htmlFor="date">Please Select A Date:</label>
+      <DatePicker
+        dateChangeHandler={dateChangeHandler}
+        setNewBookingInfo={setNewBookingInfo}
+      />
       <label htmlFor="time">Please Select A Time:</label>
-      <input type="time" id="time" name="time" required />
-      <br />
-    </div>
+      <input
+        type="time"
+        id="time"
+        value={newBookingInfo.time}
+        required
+        onChange={(e) => changeHandler(e, allBookingInfo, setNewBookingInfo)}
+      />
+      <input type={"submit"} />
+    </form>
   );
 };
 export default ContactForm;

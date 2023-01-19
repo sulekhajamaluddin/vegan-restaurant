@@ -15,6 +15,7 @@
 @import "./sections/productpage-sections/ProductIngredients.css";
 @import "./sections/productpage-sections/ProductNutrition.css";
 @import "./sections/contactpage-sections/ContactForm.css";
+@import "./sections/contactpage-sections/DatePicker.css";
 
 /*Components*/
 @import "./components/Navbar.css";

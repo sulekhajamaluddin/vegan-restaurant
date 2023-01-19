@@ -1,0 +1,14 @@
+.calendar {
+  font-size: var(--text-paragraph-mobile);
+}
+
+.calendar button {
+  font-size: var(--text-paragraph-mobile);
+}
+
+.react-calendar__navigation button,
+.react-calendar__month-view__weekdays,
+.react-calendar__tile--range,
+.react-calendar__tile {
+  color: var(--color-beet);
+}

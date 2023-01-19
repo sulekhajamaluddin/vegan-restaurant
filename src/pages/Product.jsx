@@ -31,7 +31,7 @@ export default function Product() {
     <div className="product">
       <img src={`../assets/${thumbNailURL}`} alt={thumbDescription} />
       <section className="details">
-        <h3>{productName}</h3>
+        <h2>{productName}</h2>
         <p>{description}</p>
       </section>
       <ProductIngredients ingredients={ingredients} />
