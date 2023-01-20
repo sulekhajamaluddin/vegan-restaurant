@@ -1,7 +1,7 @@
-export const handleSubmit = (e, newBookingInfo, addBookingInfo) => {
+export const handleSubmit = (e, newBookingInfo, addNewBookingInfo) => {
   e.preventDefault();
   console.log(newBookingInfo);
-  addBookingInfo(newBookingInfo);
+  addNewBookingInfo(newBookingInfo);
 };
 
 export const dateChangeHandler = (date, setNewBookingInfo) => {

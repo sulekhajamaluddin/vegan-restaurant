@@ -4,10 +4,8 @@ import "react-calendar/dist/Calendar.css";
 
 //Project Files
 import { useState } from "react";
-import { useFormData } from "../state/FormContext";
 
-export default function DatePicker({ dateChangeHandler }) {
-  const { setNewBookingInfo } = useFormData();
+export default function DatePicker({ dateChangeHandler, setNewBookingInfo }) {
   const [date, setDate] = useState(new Date());
 
   const onDateChange = (date) => {

@@ -11,7 +11,6 @@ export function FormProvider({ children }) {
   const allBookingInfo = [];
 
   const [errors, setErrors] = useState({});
-  console.log(errors);
 
   //Properties
   const values = {
@@ -25,6 +24,8 @@ export function FormProvider({ children }) {
   function addNewBookingInfo(newBookingInfo) {
     allBookingInfo.push(newBookingInfo);
   }
+
+  console.log(allBookingInfo);
 
   function getErrors(newBookingInfo) {
     const result = {};

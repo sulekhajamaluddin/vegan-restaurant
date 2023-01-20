@@ -1,11 +1,9 @@
 //Node Modules
 import React, { useState } from "react";
-import { useFormData } from "../state/FormContext";
 
 //Project Files
-export default function TimeSlot() {
+export default function TimeSlot({ setNewBookingInfo }) {
   const [time, setTime] = useState("");
-  const { setNewBookingInfo } = useFormData();
 
   const timeChangeHandler = (e) => {
     setTime(e.target.value);
@@ -32,6 +30,7 @@ export default function TimeSlot() {
       className="time-slot"
       onChange={(e) => timeChangeHandler(e)}
     >
+      <option>Choose a time</option>
       {options}
     </select>
   );

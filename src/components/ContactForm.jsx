@@ -22,14 +22,14 @@ const ContactForm = () => {
   const [reservationSuccess, setReservationSuccess] = useState(false);
 
   //Global State
-  const { addBookingInfo, errors, setErrors, getErrors } = useFormData();
+  const { addNewBookingInfo, errors, setErrors, getErrors } = useFormData();
 
   const onSubmit = (e) => {
     e.preventDefault();
     const allErrors = getErrors(newBookingInfo);
     const isValid = Object.keys(allErrors).length === 0;
     if (isValid) {
-      handleSubmit(e, newBookingInfo, addBookingInfo);
+      handleSubmit(e, newBookingInfo, addNewBookingInfo);
       setReservationSuccess(true);
     } else {
       setErrors(allErrors);
@@ -70,9 +70,12 @@ const ContactForm = () => {
         setNewBookingInfo={setNewBookingInfo}
       />
       <label htmlFor="date">Please Select A Date:</label>
-      <DatePicker dateChangeHandler={dateChangeHandler} />
+      <DatePicker
+        dateChangeHandler={dateChangeHandler}
+        setNewBookingInfo={setNewBookingInfo}
+      />
       <label htmlFor="time">Please Select A Time:</label>
-      <TimeSlot />
+      <TimeSlot setNewBookingInfo={setNewBookingInfo} />
       <input type={"submit"} />
     </form>
   );
