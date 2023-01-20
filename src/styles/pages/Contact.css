@@ -64,4 +64,8 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .contact .map {
+    width: 70%;
+    margin: auto;
+  }
 }

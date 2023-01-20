@@ -18,7 +18,7 @@ export default function Contact() {
       </section>
       <section className="map">
         <img
-          src={"../assets/location.png"}
+          src={"../assets/latestlocation.png"}
           alt="A screen shot of map showing Solna Centrum"
         />
       </section>
