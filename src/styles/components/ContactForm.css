@@ -3,7 +3,7 @@
   max-width: 100%;
   margin-bottom: var(--space-big);
   padding: var(--space-medium) var(--space-medium);
-  background-color: var(--color-pale-beet);
+  background-color: rgb(246, 243, 243);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,8 +32,32 @@
   margin: var(--space-big) 0;
 }
 
+.form input[disabled] {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.time-slot {
+  width: 350px;
+  max-width: 100%;
+  height: 30px;
+}
+
 @media screen and (min-width: 750px) {
   .form {
-    margin-left: 15%;
+    width: 100%;
+    padding-left: 15%;
+  }
+
+  .form label {
+    font-size: var(--text-paragraph-tablet);
+    margin: var(--space-small) 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .form label {
+    font-size: var(--text-paragraph);
+    margin: var(--space-medium) 0;
   }
 }

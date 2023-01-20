@@ -12,14 +12,14 @@
       "categoryName": "desserts",
       "thumbNailURL": "desserts-thumb.jpg",
       "thumbDescription": "A few pieces of strawberry cakes",
-      "description": "Our dishes are a unique blend of cuisines from different parts of the world blended together to satisfy the Vegan taste buds. We can promise that all the dishes are made and served following the Vegan principles of peace."
+      "description": "Desserts are our icing on the cake. We take special care to bring in the flavours from nature into modern yet green plates. You have a lot to choose from and we hope you enjoy them!  "
     },
     {
       "id": 3,
       "categoryName": "drinks",
       "thumbNailURL": "drinks-thumb.jpg",
       "thumbDescription": "Two glasses of pink colored smoothie",
-      "description": "Our dishes are a unique blend of cuisines from different parts of the world blended together to satisfy the Vegan taste buds. We can promise that all the dishes are made and served following the Vegan principles of peace."
+      "description": "All our drinks are hundred percent on-the-spot made. We use only the best ingredients, most of which are from our local farms. Nothing frozen! Everything Vegan!! "
     }
   ],
   "products": [
@@ -29,8 +29,8 @@
       "productName": "Vegan Plant Balls",
       "thumbNailURL": "plant-balls.jpg",
       "thumbDescription": "A bowl with vegan plant balls",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "The traditional meat balls of Sweden with a wonderful a Vegan twist.",
+      "description": "As the name suggests, these are balls made entirely from plants, with no animal products used. These actually look and taste like the real meatballs!! It is served along with mashed potatoes, sauce and lingonberry jam. Once you’ve tasted it, you’ll be back for more. The plant ball is made from quinoa, black beans and more. The meaty taste is achieved by adding flavors, such as roasted vegetables. It does not include any animal-based ingredients which makes it a more sustainable choice, and is therefore suitable for vegan and vegetarian diets.",
       "ingredients": ["Quinoa", "Black Beans", "Garlic", "Oregano", "Parsley"],
       "servingSize": "100g",
       "calories": "180kcal",
@@ -97,8 +97,8 @@
       "productName": "Vegan Tofu Spinach Biryani",
       "thumbNailURL": "tofu-spinach-biryani.jpg",
       "thumbDescription": "A bowl with tofu and spinach biryani",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "The flavourful Biryani from India finds new friends in the Vegan kitchen - Tofu and Spinach.",
+      "description": "Traditionally, biryani contains a lot of fatty ghee and red meats. The great thing about this vegan biryani is that it is cooked with little oil and lots of green vegetables, tofu and spinach making it a healthy dish. We have put loads of broccoli and peas into this, so that they make up a good bulk of the serving. This helps to keep the recipe lower calorie than a normal biryani, as the vegetable to rice ratio is higher. Per serving, you’re getting a lot more nutritional goodness!",
       "ingredients": [
         "Tofu",
         "Spinach",
@@ -171,8 +171,8 @@
       "productName": "Vegan Mushroom Stroganoff",
       "thumbNailURL": "mushroom-pasta.jpg",
       "thumbDescription": "A bowl with mushroom pasta",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Traditionally this Russian dish is made with meat, however, we decided to put some leaves and mushrooms instead!",
+      "description": "It’s packed with umami, is super flavorful, and is so creamy you won’t believe it’s dairy-free and vegan. It’s the ultimate comfort food! In this Creamy Vegan Mushroom Stroganoff, mushrooms and leeks get cooked down until deeply browned, then paired with a luscious and umami-packed sauce, tossed with pasta, and then topped with more browned mushrooms. This dish is SO good that you will fall in love with mushrooms.",
       "ingredients": [
         "Mushroom",
         "Vegetable Broth",
@@ -245,8 +245,8 @@
       "productName": "Vegan Falafel Bowl",
       "thumbNailURL": "falafel-bowl.jpeg",
       "thumbDescription": "A bowl with falafel and vegetables",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "This bowl is colorful and healthy with brown falafel, veggies, salad leaves, lots and lots of sauce - Vegan, ofcourse!",
+      "description": "This Mediterranean-inspired vegan falafel bowl is packed with all the good stuff. A simple tabbouleh, crispy falafels, creamy hummus, grilled zucchini, and a smooth tahini dressing to bring it all together. What more could you want?If you’re looking for a filling, protein-packed, delicious bowl, you’ve come to the right place!When it comes to fitting the best favorites into a bowl, this falafel bowl would have to be it. It has a variety of textures, colours, and flavours that work so well together.",
       "ingredients": [
         "Garbanzo Beans",
         "Cilantro",
@@ -319,8 +319,8 @@
       "productName": "Crispy Apple",
       "thumbNailURL": "apple-crunch.jpg",
       "thumbDescription": "Crispy apple on a plate",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Crispy Apple is a delicious apple treat with the warm aroma and flavour of Cinnamon that will please the sugary taste buds.",
+      "description": "The filling is perfect. Apples are generously coated with coconut sugar, cinnamon, nutmeg and fresh ginger. Apple juice adds extra sweetness and helps cook the apples to tender perfection, while arrowroot and cornstarch help create a thick, caramel-like sauce. The topping is amazing as well with plenty of texture from rolled oats, almond meal, and chopped pecans. Muscovado and coconut sugar add sweetness, while cinnamon adds warmth and autumnal flavor.",
       "ingredients": [
         "Apples",
         "Cinnamon",
@@ -393,11 +393,11 @@
       "productName": "Tiramisu",
       "thumbNailURL": "tiramisu.jpg",
       "thumbDescription": "Tiramisu in a bowl",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "No matter how many times you have had it before, there is always more space for our Tiramisu, made with Vegan milk.",
+      "description": "Creamy, delicious and just a little addictive.Traditional tiramisu uses mascarpone cheese and eggs. Our vegan version is simple. Silken tofu serves as the cream base, essentially replacing the mascarpone. The two are actually very similar in the way they are made. Both are curds. Mascarpone cheese is made from heated dairy milk that is curdled with lemon juice. Tofu uses soy milk.We also blend in the creamy, fatty part of coconut milk. The fat in it gives the tiramisu that smooth feeling.",
       "ingredients": [
         "Plain Flour",
-        "Almond Milk",
+        "Soy Milk",
         "Vanilla Extract",
         "Vegan Cream Cheese",
         "Apple Sauce"
@@ -467,8 +467,8 @@
       "productName": "Avocado Strawberry",
       "thumbNailURL": "avocado-strawberry.jpg",
       "thumbDescription": "A glass with avocado and strawberry pudding",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Avacado - Strawberry Chilled is a dessert that resembles ice-cream and pudding, but it's not the same. Try and you won't regret.",
+      "description": "This Vegan Strawberry Ices is naturally sweetened and dairy-free, and is just as satisfying as the traditional version. Maple syrup is the perfect sweetener here, without adding a noticeable maple flavor. The creaminess here comes from coconut milk and Avocados. If you’re looking for a vegan chilled dessert, make sure to try this. Packed full of vitamins to keep you fighting fit, and as sweet as you want it to be.",
       "ingredients": [
         "Avocado",
         "Strawberry",
@@ -541,8 +541,8 @@
       "productName": "Cherry & almond brownies",
       "thumbNailURL": "brownie.jpg",
       "thumbDescription": "A plate with cherry and almond brownies",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Cherries and chocolates are always the perfect ingredients to be together, so we decided to blend them in this beautiful brownie.",
+      "description": "When it comes to chocolate brownies we’re proud to say that we’ve had our fair share. We have tasted lots and created plenty of our own too. We have experimented until we have come up with what we consider to be the absolute best chocolate brownies out there and best of all they’re vegan too (but you’d never guess). These are gooey, chocolatey, full of flavour and complimenting the chocolate there’s the lovely taste of cherry and almond. This comes together to create one delicious bite that once you have one you won’t be able to resist the rest.",
       "ingredients": [
         "Red Cherries",
         "Almond",
@@ -615,8 +615,8 @@
       "productName": "Blueberry Banana Smoothie",
       "thumbNailURL": "blueberry-banana-smoothie.jpg",
       "thumbDescription": "Glass with blueberry and banana smoothie",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Smoothies are the best drink in every weather for the health conscious. This one here is filled with nutrients and flavour.",
+      "description": "Vegan blueberry banana smoothie is a delicious and refreshing drink perfect for summer. Full of antioxidants, this thick and creamy smoothie can also be enjoyed as a nutritious snack too. This simple smoothie is made without yogurt and thinned with almond milk. So, if you’re adding more wholesome plant-based food to your diet, this one’s for you!",
       "ingredients": [
         "Blue Berries",
         "Banana",
@@ -689,8 +689,8 @@
       "productName": "Matcha Milkshake",
       "thumbNailURL": "matcha-milkshake.jpg",
       "thumbDescription": "Glass with Matcha Milkshake",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Milkshake with a twist, that's how we call this special milkshake where the earthy matcha meets the milkshake.",
+      "description": "Can you think of anything better than indulging in a thick, sweet and creamy milkshake! We know you already love green tea, so we turn it into a vegan, guilt-free healthy matcha treat by adding ice to this cold matcha milkshake. Topped with chocolate brownie - it becomes nothing less than a glorious shake… only lesser in fat, sugar, and calories too!",
       "ingredients": [
         "Toasted Coconut",
         "Frozen Banana",
@@ -763,8 +763,8 @@
       "productName": "Mexican Hot Chocolate",
       "thumbNailURL": "mexican-hot-chocolate.jpg",
       "thumbDescription": "Glass with Mexican Hot Chocolate",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "Here is the warmest Cocoa with a little pinch of paprika spice to help you warm up in the winter colds. ",
+      "description": "This lightly spiced Mexican hot chocolate combines semisweet vegan chocolate with dairy-free milk – then lightly spiced with cinnamon and a hint of chili for a delicious winter warming drink! With a combination of chocolate, cinnamon, and warming chili powder, this creamy vegan hot chocolate will warm your bones in no time – while also appealing to your sweet tooth!",
       "ingredients": [
         "Almond Milk",
         "Dark Vegan Chocolate",
@@ -837,8 +837,8 @@
       "productName": "Lemon Ginger Tea",
       "thumbNailURL": "lemon-ginger-tea.jpg",
       "thumbDescription": "A cup of lemon ginger tea",
-      "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit expedita quidem nihil inventore reprehenderit officiis",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi minima deserunt molestiae atque laboriosam, aspernatur doloremque quo asperiores nisi possimus saepe. Iure numquam culpa eius praesentium alias? Voluptatum, veniam!Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "shortDescription": "After a wholesome meal, it is always good to have a warm drink with a little lemon, ginger and turmeric that helps digestion.",
+      "description": "If you're looking for a warm, relaxing drink with health benefits and a strong taste, lemon ginger tea may be for you. It’s a favorite among herbal tea drinkers — in fact, people have been drinking lemon ginger tea for hundreds if not thousands of years. Lemons are well known around the world for their sharp, sour flavor and for being an excellent source of vitamin C and antioxidants.Together, the sour flavor of lemon and bitter tartness of ginger combine into a tea with a crisp, sharp flavor and with many health benefits. Have it after a wholesome meal to help digestion.",
       "ingredients": ["Lemon", "Ginger", "Turmeric", "Cayenne", "Maple Syrup"],
       "servingSize": "75g",
       "calories": "12kcal",

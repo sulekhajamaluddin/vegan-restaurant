@@ -1,7 +1,6 @@
 export default function TextInput({
-  newBookingInfo,
   changeHandler,
-  allBookingInfo,
+  newBookingInfo,
   setNewBookingInfo,
 }) {
   return (
@@ -11,16 +10,16 @@ export default function TextInput({
         type="text"
         id="name"
         value={newBookingInfo.name}
+        onChange={(e) => changeHandler(e, setNewBookingInfo)}
         required
-        onChange={(e) => changeHandler(e, allBookingInfo, setNewBookingInfo)}
       />
       <label htmlFor="email">Email Address:</label>
       <input
         type="text"
         id="email"
         value={newBookingInfo.email}
+        onChange={(e) => changeHandler(e, setNewBookingInfo)}
         required
-        onChange={(e) => changeHandler(e, allBookingInfo, setNewBookingInfo)}
       />
     </>
   );

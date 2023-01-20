@@ -14,11 +14,11 @@
 @import "./sections/homepage-section/CategoriesSummary.css";
 @import "./sections/productpage-sections/ProductIngredients.css";
 @import "./sections/productpage-sections/ProductNutrition.css";
-@import "./sections/contactpage-sections/ContactForm.css";
-@import "./sections/contactpage-sections/DatePicker.css";
 
 /*Components*/
 @import "./components/Navbar.css";
 @import "./components/CategoryCard.css";
 @import "./components/ProductListItem.css";
 @import "./components/Footer.css";
+@import "./components/ContactForm.css";
+@import "./components/DatePicker.css";
