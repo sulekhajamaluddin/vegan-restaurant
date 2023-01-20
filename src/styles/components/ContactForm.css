@@ -30,17 +30,30 @@
   background-color: var(--color-blue);
   color: white;
   margin: var(--space-big) 0;
-}
-
-.form input[disabled] {
-  background-color: grey;
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .time-slot {
   width: 350px;
   max-width: 100%;
   height: 30px;
+}
+
+.form .alert .error {
+  background-color: rgb(251, 176, 176);
+}
+
+.form .alert ul {
+  line-height: 2;
+}
+
+.form .alert li {
+  background-color: rgb(251, 176, 176);
+  list-style: none;
+}
+
+.form .success {
+  background-color: rgb(220, 249, 176);
 }
 
 @media screen and (min-width: 750px) {

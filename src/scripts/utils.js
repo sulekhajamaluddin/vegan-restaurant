@@ -60,8 +60,8 @@ export function timeChangeHandler(e, setTime, setNewBookingInfo) {
 
 export function setMessages(errors, reservationFailed, reservationSuccess) {
   return reservationFailed ? (
-    <div role="alert">
-      <p className="error">Please fix the following errors:</p>
+    <div className="alert">
+      <p className="error">PLEASE FIX THE FOLLOWING ERRORS</p>
       <ul>
         {Object.keys(errors).map((key) => {
           return <li key={key}>{errors[key]}</li>;

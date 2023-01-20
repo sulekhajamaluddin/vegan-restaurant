@@ -29,14 +29,15 @@ export function FormProvider({ children }) {
 
   function getErrors(newBookingInfo) {
     const result = {};
+    const emailExpression = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
     if (!newBookingInfo.name) result.name = "Name is required";
     if (!newBookingInfo.name.trim())
       result.emptyName = "Name cannot be empty string";
+    if (newBookingInfo.name && newBookingInfo.name.split(" ").length === 1)
+      result.name = "Please Enter Full Name";
     if (
       newBookingInfo.email &&
-      !/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(
-        newBookingInfo.email.toLowerCase()
-      )
+      !emailExpression.test(newBookingInfo.email.toLowerCase())
     )
       result.email = "Please Enter a Valid Email";
     if (!newBookingInfo.email) result.email = "Email is required";
