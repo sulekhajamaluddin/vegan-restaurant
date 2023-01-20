@@ -32,6 +32,13 @@ export function FormProvider({ children }) {
     if (!newBookingInfo.name) result.name = "Name is required";
     if (!newBookingInfo.name.trim())
       result.emptyName = "Name cannot be empty string";
+    if (
+      newBookingInfo.email &&
+      !/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(
+        newBookingInfo.email.toLowerCase()
+      )
+    )
+      result.email = "Please Enter a Valid Email";
     if (!newBookingInfo.email) result.email = "Email is required";
     if (!newBookingInfo.email.trim())
       result.emptyEmail = "Email cannot be empty string";
