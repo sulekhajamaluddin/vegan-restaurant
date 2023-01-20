@@ -3,7 +3,13 @@ import { useState } from "react";
 
 //Project Files
 import { DatePicker, TextInput, TimeSlot } from "../components";
-import { dateChangeHandler, handleSubmit } from "../scripts/utils";
+import {
+  changeHandler,
+  dateChangeHandler,
+  timeChangeHandler,
+  onSubmit,
+  setMessages,
+} from "../scripts/utils";
 
 import { useFormData } from "../state/FormContext";
 
@@ -24,48 +30,23 @@ const ContactForm = () => {
   //Global State
   const { addNewBookingInfo, errors, setErrors, getErrors } = useFormData();
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    const allErrors = getErrors(newBookingInfo);
-    const isValid = Object.keys(allErrors).length === 0;
-    if (isValid) {
-      handleSubmit(e, newBookingInfo, addNewBookingInfo);
-      setReservationSuccess(true);
-    } else {
-      setErrors(allErrors);
-      setReservationFailed(true);
-    }
-  };
-
-  const changeHandler = (e, setNewBookingInfo) => {
-    setNewBookingInfo((bookingInfo) => {
-      return {
-        ...bookingInfo,
-        id: bookingInfo.length,
-        [e.target.id]: e.target.value,
-      };
-    });
+  const argumentsObject = {
+    getErrors: getErrors,
+    newBookingInfo: newBookingInfo,
+    addNewBookingInfo: addNewBookingInfo,
+    setReservationSuccess: setReservationSuccess,
+    setNewBookingInfo: setNewBookingInfo,
+    intialState: intialState,
+    setErrors: setErrors,
+    setReservationFailed: setReservationFailed,
   };
 
   return (
-    <form className="form" onSubmit={onSubmit}>
+    <form className="form" onSubmit={(e) => onSubmit(e, argumentsObject)}>
       <h3>Book A Table</h3>
-      {reservationFailed && (
-        <div role="alert">
-          <p className="error">Please fix the following errors:</p>
-          <ul>
-            {console.log(errors)}
-            {Object.keys(errors).map((key) => {
-              return <li key={key}>{errors[key]}</li>;
-            })}
-          </ul>
-        </div>
-      )}
-      {reservationSuccess && (
-        <p className="success">Reservation has been success.</p>
-      )}
+      {setMessages(errors, reservationFailed, reservationSuccess)}
       <TextInput
-        changeHandler={changeHandler}
+        changeHandler={(e) => changeHandler(e, setNewBookingInfo)}
         newBookingInfo={newBookingInfo}
         setNewBookingInfo={setNewBookingInfo}
       />
@@ -75,7 +56,10 @@ const ContactForm = () => {
         setNewBookingInfo={setNewBookingInfo}
       />
       <label htmlFor="time">Please Select A Time:</label>
-      <TimeSlot setNewBookingInfo={setNewBookingInfo} />
+      <TimeSlot
+        timeChangeHandler={timeChangeHandler}
+        setNewBookingInfo={setNewBookingInfo}
+      />
       <input type={"submit"} />
     </form>
   );
