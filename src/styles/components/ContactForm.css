@@ -56,6 +56,8 @@
   background-color: rgb(220, 249, 176);
 }
 
+/*Tablets*/
+
 @media screen and (min-width: 750px) {
   .form {
     width: 100%;
@@ -67,6 +69,8 @@
     margin: var(--space-small) 0;
   }
 }
+
+/*Laptops*/
 
 @media screen and (min-width: 750px) {
   .form label {

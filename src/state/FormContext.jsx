@@ -1,18 +1,12 @@
 //Node modules
 import { createContext, useContext, useState } from "react";
 
-//Create the context
 const Context = createContext(null);
 
-//Create the provider for the parent(App.jsx)
-
 export function FormProvider({ children }) {
-  //State
   const allBookingInfo = [];
-
   const [errors, setErrors] = useState({});
 
-  //Properties
   const values = {
     addNewBookingInfo,
     errors,
@@ -20,7 +14,6 @@ export function FormProvider({ children }) {
     getErrors,
   };
 
-  //Methods
   function addNewBookingInfo(newBookingInfo) {
     allBookingInfo.push(newBookingInfo);
   }
@@ -52,11 +45,8 @@ export function FormProvider({ children }) {
   return <Context.Provider value={values}>{children}</Context.Provider>;
 }
 
-//Create the custom hook for the children
-
 export function useFormData() {
   const context = useContext(Context);
-  //Safeguard
   if (!context)
     throw new Error("useFormData must be used within a <FormProvider>");
 

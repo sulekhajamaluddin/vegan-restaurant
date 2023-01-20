@@ -45,6 +45,8 @@
   object-fit: cover;
 }
 
+/*Tablets*/
+
 @media screen and (min-width: 750px) {
   .contact {
     display: block;
@@ -62,6 +64,8 @@
     margin-bottom: var(--space-medium);
   }
 }
+
+/*Laptops*/
 
 @media screen and (min-width: 1000px) {
   .contact .map {
