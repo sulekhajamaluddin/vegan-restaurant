@@ -25,6 +25,8 @@ export default function Category() {
     <ProductListItem key={product.id} product={product} />
   ));
 
+  // you can do the same with normal HTML using an anchor
+  // check this: https://www.computerhope.com/issues/ch000049.htm#id
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

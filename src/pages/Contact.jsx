@@ -1,6 +1,7 @@
 //Project Files
 import { ContactForm } from "../components";
 
+// good
 export default function Contact() {
   return (
     <div className="contact">

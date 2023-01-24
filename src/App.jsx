@@ -8,6 +8,14 @@ import { Navbar, Footer } from "./components";
 import { DataProvider } from "./state/DataContext";
 import { FormProvider } from "./state/FormContext";
 
+/**
+ * Side effects -1
+ * This project does not need a form provider,
+ * you can work on a local state inside the form.
+ *
+ * You only use global state when you need to share data
+ * between multiple components instead of just 1
+ */
 export default function App() {
   return (
     <div className="App">

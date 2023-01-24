@@ -2,8 +2,12 @@ export default function Hero() {
   return (
     <section className="hero">
       <div>
-        <h1>BEET BOWL</h1>
-        <h2>LET'S GO THE VEGAN WAY!!!</h2>
+        {/* dont use upercase, use CSS to change the text case */}
+        {/* dont use a h2, this is a slogan not a subtitle */}
+        <h1>
+          <span className="first-line">Beetbowl</span>
+          <span className="second-line">Let's go vegan</span>
+        </h1>
       </div>
     </section>
   );
