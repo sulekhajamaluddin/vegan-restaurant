@@ -1,6 +1,5 @@
 export function handleSubmit(e, newBookingInfo, addNewBookingInfo) {
   e.preventDefault();
-  console.log(newBookingInfo);
   addNewBookingInfo(newBookingInfo);
 }
 

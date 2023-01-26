@@ -18,8 +18,6 @@ export function FormProvider({ children }) {
     allBookingInfo.push(newBookingInfo);
   }
 
-  console.log(allBookingInfo);
-
   function getErrors(newBookingInfo) {
     const result = {};
     const nameExpression = /^[a-zA-Z]+ [a-zA-Z]+$/;
