@@ -1,5 +1,5 @@
 //Project Files
-import { ContactForm } from "../components";
+import { ContactForm, Map } from "../components";
 
 export default function Contact() {
   return (
@@ -16,11 +16,8 @@ export default function Contact() {
         <p>Level-1, Solna Centrum, Solna</p>
         <p>Stockholm</p>
       </section>
-      <section className="map">
-        <img
-          src={"../assets/latestlocation.png"}
-          alt="A screen shot of map showing Solna Centrum"
-        />
+      <section className="map-container">
+        <Map />
       </section>
     </div>
   );

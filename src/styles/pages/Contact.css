@@ -33,18 +33,14 @@
   margin-bottom: var(--space-medium);
 }
 
-.contact .map {
+.map-container {
   width: 100%;
-  height: 600px;
-  border: 2px solid var(--color-blue);
-  border-radius: 20px;
 }
 
-.map img {
+.contact .map {
   border-radius: 20px;
-  object-fit: cover;
+  width: 100%;
 }
-
 /*Tablets*/
 
 @media screen and (min-width: 750px) {
@@ -62,14 +58,5 @@
   .contact h3 {
     text-align: left;
     margin-bottom: var(--space-medium);
-  }
-}
-
-/*Laptops*/
-
-@media screen and (min-width: 1000px) {
-  .contact .map {
-    width: 70%;
-    margin: auto;
   }
 }

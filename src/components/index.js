@@ -6,6 +6,7 @@ import ContactForm from "./ContactForm";
 import TextInput from "./TextInput";
 import DatePicker from "./DatePicker";
 import TimeSlot from "./TimeSlot";
+import Map from "./Map";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   TextInput,
   DatePicker,
   TimeSlot,
+  Map,
 };
