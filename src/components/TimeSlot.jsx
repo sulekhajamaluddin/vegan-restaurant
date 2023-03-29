@@ -9,9 +9,10 @@ export default function TimeSlot({ timeChangeHandler, setNewBookingInfo }) {
   for (let i = 0; i < 13; i++) {
     times.push({ key: `${i + 1}`, value: `${i + 10}` });
   }
+
   const options = times.map((time) => (
     <option key={time.key} value={time.value}>
-      {`${time.value}:00`}
+      {`${time.value}:00 - ${Number(time.value) + 1}:00`}
     </option>
   ));
   return (

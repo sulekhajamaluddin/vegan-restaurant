@@ -1,5 +1,6 @@
 //Node Modules
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 //Project Files
 import { DatePicker, TextInput, TimeSlot } from "../components";
@@ -22,6 +23,27 @@ const intialState = {
 };
 
 const ContactForm = () => {
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_e7ik3i5",
+        "template_aymdo2q",
+        form.current,
+        "S9-gpDMwGvAWVC6W2"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
   //Local State
   const [newBookingInfo, setNewBookingInfo] = useState(intialState);
   const [reservationFailed, setReservationFailed] = useState(false);
@@ -42,7 +64,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="form" onSubmit={(e) => onSubmit(e, argumentsObject)}>
+    <form
+      ref={form}
+      className="form"
+      onSubmit={(e) => onSubmit(e, argumentsObject, sendEmail)}
+    >
       <h3>Book A Table</h3>
       {setMessages(errors, reservationFailed, reservationSuccess)}
       <TextInput

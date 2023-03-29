@@ -9,6 +9,7 @@ export default function TextInput({
       <input
         type="text"
         id="name"
+        name="name"
         value={newBookingInfo.name}
         onChange={(e) => changeHandler(e, setNewBookingInfo)}
         required
@@ -17,6 +18,7 @@ export default function TextInput({
       <input
         type="text"
         id="email"
+        name="email"
         value={newBookingInfo.email}
         onChange={(e) => changeHandler(e, setNewBookingInfo)}
         required

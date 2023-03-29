@@ -3,8 +3,9 @@ export function handleSubmit(e, newBookingInfo, addNewBookingInfo) {
   addNewBookingInfo(newBookingInfo);
 }
 
-export function onSubmit(e, argumentsObject) {
+export function onSubmit(e, argumentsObject, sendEmail) {
   e.preventDefault();
+  console.log(e.target);
   const {
     getErrors,
     newBookingInfo,
@@ -22,6 +23,7 @@ export function onSubmit(e, argumentsObject) {
     handleSubmit(e, newBookingInfo, addNewBookingInfo);
     setReservationSuccess(true);
     setNewBookingInfo(intialState);
+    sendEmail(e);
   } else {
     setErrors(allErrors);
     setReservationFailed(true);
@@ -68,7 +70,7 @@ export function setMessages(errors, reservationFailed, reservationSuccess) {
       </ul>
     </div>
   ) : reservationSuccess ? (
-    <p className="success">Reservation has been success.</p>
+    <p className="success">Your table has been booked. Thank you!</p>
   ) : (
     ""
   );
